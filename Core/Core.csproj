@@ -9,7 +9,8 @@
   <ItemGroup>
     <Folder Include="Commands\" />
     <Folder Include="Handlers\" />
-    <Folder Include="Ports\" />
+    <Folder Include="Ports\Inbound\Interfaces\" />
+    <Folder Include="Ports\Outbound\Interfaces\" />
     <Folder Include="Querys\" />
   </ItemGroup>
 
