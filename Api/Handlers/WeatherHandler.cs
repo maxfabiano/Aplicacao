@@ -1,8 +1,7 @@
 ﻿using Api.Commands;
-
 namespace Api.Handlers
 {
-    public class WeatherHandler : ICommandHandler<WeatherCommand>
+    public class WeatherHandler
     {
         public void Handle(WeatherCommand command)
         {

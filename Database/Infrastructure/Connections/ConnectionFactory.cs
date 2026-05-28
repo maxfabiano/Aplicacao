@@ -16,11 +16,16 @@ namespace Database.Infrastructure.Connections
         {
             _connectionString = connectionString;
         }
-        /*
+
         public IDbConnection CreateConnection()
         {
-            return new SqlConnection(_connectionString);
+            throw new NotImplementedException();
         }
-        */
+        /*
+public IDbConnection CreateConnection()
+{
+   return new SqlConnection(_connectionString);
+}
+*/
     }
 }

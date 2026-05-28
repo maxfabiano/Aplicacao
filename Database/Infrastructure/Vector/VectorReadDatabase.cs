@@ -18,6 +18,11 @@ namespace Database.Infrastructure.Vector
             return await _vectorClient.PesquisarPorVetor<T>(vetorDeBusca, parameters, ct);
         }
 
+        public Task<T> QueryFirstOrDefaultAsync<T>(string queryText, object parameters = null, CommandType? commandType = null, CancellationToken ct = default)
+        {
+            throw new NotImplementedException();
+        }
+
         // ...
     }
 }

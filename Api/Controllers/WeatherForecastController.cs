@@ -1,3 +1,6 @@
+using Api.Commands;
+using Api.Handlers;
+using Api.Querys;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
@@ -16,6 +19,7 @@ namespace Api.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] WeatherCommand command)
         {
+            WeatherHandler _weatherHandler = new WeatherHandler();
             _weatherHandler.Handle(command);
             return Ok();
         }
@@ -23,6 +27,7 @@ namespace Api.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            WeatherQueryHandler _weatherQueryHandler = new WeatherQueryHandler();
             return _weatherQueryHandler.Handle();
         }
 
