@@ -1,5 +1,4 @@
-﻿using Database.Core.Interfaces;
-using Database.Handlers.Interfaces;
+﻿using Database.Handlers.Interfaces;
 using Database.Handlers.Sql;
 using Database.Infrastructure.Connections;
 using Microsoft.Extensions.DependencyInjection;
