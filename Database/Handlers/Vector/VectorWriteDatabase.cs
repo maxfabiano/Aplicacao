@@ -1,12 +1,12 @@
 ﻿using Database.Core.Interfaces;
-using Database.Repository.Interfaces;
+using Database.Handlers.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Database.Infrastructure.Vector
+namespace Database.Handlers.Vector
 {
     public class VectorWriteDatabase : IWriteDatabase
     {

@@ -1,4 +1,4 @@
-namespace Api
+namespace Api.Dto
 {
     public class WeatherForecast
     {

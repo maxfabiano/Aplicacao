@@ -1,4 +1,6 @@
-﻿namespace Api.Querys
+﻿using Api.Dto;
+
+namespace Api.Querys
 {
     public class WeatherQueryHandler
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Database.Repository.Interfaces
+namespace Database.Handlers.Interfaces
 {
     public interface IReadDatabase
     {

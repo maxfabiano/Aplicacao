@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Database.Core.Interfaces
+namespace Database.Handlers.Interfaces
 {
     public interface IDbConnectionFactory
     {

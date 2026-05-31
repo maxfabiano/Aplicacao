@@ -1,7 +1,7 @@
-﻿using Database.Repository.Interfaces;
+﻿using Database.Handlers.Interfaces;
 using System.Data;
 
-namespace Database.Infrastructure.Vector
+namespace Database.Handlers.Vector
 {
     // Bancos vetoriais não usam SQL, eles usam arrays (embeddings) ou JSONs
     public class VectorReadDatabase : IReadDatabase

@@ -1,7 +1,7 @@
 ﻿using Database.Core.Interfaces;
+using Database.Handlers.Interfaces;
+using Database.Handlers.Sql;
 using Database.Infrastructure.Connections;
-using Database.Infrastructure.Sql;
-using Database.Repository.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 

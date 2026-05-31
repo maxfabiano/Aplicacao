@@ -1,4 +1,4 @@
-﻿using Database.Core.Interfaces;
+﻿using Database.Handlers.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;

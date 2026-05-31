@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Commands\" />
-    <Folder Include="Handlers\Interfaces\" />
     <Folder Include="Querys\" />
   </ItemGroup>
 

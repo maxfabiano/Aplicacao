@@ -1,4 +1,4 @@
-﻿namespace Database.Infrastructure.Vector
+﻿namespace Database.Handlers.Vector
 {
     public interface IVectorClient
     {
